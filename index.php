@@ -23,6 +23,12 @@ $(document).ready(function(){
   $("[data-toggle='."tooltip".']").tooltip();   
 });
 </script>
+<title>Durham Region Candidates Guide</title>
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@whitbynerd">
+<meta name="twitter:title" content="Durham Region Candidates Guide">
+<meta name="twitter:description" content="A comprehensive list of candidates running for municipal office across Durham Region.">
+<meta name="twitter:image" content="social.jpeg">
 <body>
 <div class="jumbotron" style="background-color:midnightblue;color:white;">
 <div class="container-fluid">
@@ -30,7 +36,7 @@ $(document).ready(function(){
 <div class = "col-sm-1"></div>
 <div class = "col-sm-8">
 <h1>Durham Region Candidates Guide</h1>
-One website for all candidates running in Durham Region
+A comprehensive list of candidates running for municipal office across Durham Region.
 </div>
 <div class = "col-sm-1"></div>
 </div>
