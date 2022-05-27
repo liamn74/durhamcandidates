@@ -135,7 +135,7 @@ foreach ($towns as $town){
           '.$line1[5].'
           </td>'.'
           <td>
-          <a href="'.$line1[7].' target="_blank" rel="noopener noreferrer"">'.$line1[7].'</a>
+          <a href="'.$line1[7].'" target="_blank" rel="noopener noreferrer"">'.$line1[7].'</a>
           </td>';
   }
       echo "</tr>";
