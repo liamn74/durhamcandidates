@@ -88,7 +88,7 @@ echo '</ul>
   $date = new DateTime($git3[0]["commit"]["committer"]["date"], new DateTimeZone('UTC'));
   $date->setTimezone(new DateTimeZone('America/New_York'));
   echo '
-  <div class="panel-body">'.date_format($date,'F d, Y h:i a T').'</div>
+  <div class="panel-body">'.date_format($date,'F d, Y h:i a T').'<br><b><i>Notes:</b> '.$git3[0]['commit']['message'].'</i></div>
 </div>';
 echo"</div>";
 foreach ($towns as $town){
