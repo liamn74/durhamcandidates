@@ -16,7 +16,7 @@
 foreach($git1 as $git2){
   $git3[] = $git2;
 }
-
+$sum=0;
 $file = array_map('str_getcsv', file('test.csv'));
 $csv = array_map('str_getcsv', file('candidates.csv'));
 $towns = array();
@@ -71,6 +71,7 @@ foreach ($towns as $town){
   foreach($candidates as $candidate){
     if($candidate[0] == $town[0]){
         $count++;
+        $sum++;
       }
     }
   echo '<span class="badge">'.$count.'</span></a></li>';
@@ -83,13 +84,18 @@ echo '</ul>
 <p>Thank you for visiting. This website is designed to collect all of the candidates running for office across Durham Region and collate them into one convenient spot.
 <hr>';
   echo '
+<div class="row">
+<div class ="col-md-6">
   <div class="panel panel-default">
-  <div class="panel-heading"><h4>Last Updated:</h4></div>';
+  <div class="panel-heading"><h4>Latest Update:</h4></div>';
   $date = new DateTime($git3[0]["commit"]["committer"]["date"], new DateTimeZone('UTC'));
   $date->setTimezone(new DateTimeZone('America/New_York'));
   echo '
   <div class="panel-body">'.date_format($date,'F d, Y h:i a T').'<br><b><i>Notes:</b> '.$git3[0]['commit']['message'].'</i></div>
-</div>';
+</div>
+</div>
+<div class="col-md-6"><div class="panel panel-default">
+  <div class="panel-heading"><h4>Total Candidates Running:</h4></div><div class="panel-body"><h4>'.$sum.'</h4></div></div></div></div>';
 echo"</div>";
 foreach ($towns as $town){
   echo'
