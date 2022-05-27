@@ -1,4 +1,22 @@
-<?php
+<?
+  $ch = curl_init('https://api.github.com/repos/liamn74/durhamcandidates/commits');
+  curl_setopt($ch, CURLOPT_HTTPHEADER, [
+    'Accept: application/vnd.github.v3+json',
+    'Authorization: token '.getenv('tok').'',
+    'User-Agent: liamn74'
+  ]);
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+  curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+  $json = curl_exec($ch);
+  curl_close($ch);
+  $gitreturn = json_decode($json, true);
+  foreach($gitreturn as $git){
+    $git1[] = $git;
+  }
+foreach($git1 as $git2){
+  $git3[] = $git2;
+}
+
 $file = array_map('str_getcsv', file('test.csv'));
 $csv = array_map('str_getcsv', file('candidates.csv'));
 $towns = array();
@@ -63,8 +81,16 @@ echo '</ul>
 <div id="home" class="tab-pane fade in active">
 <h1>Welcome!</h1>
 <p>Thank you for visiting. This website is designed to collect all of the candidates running for office across Durham Region and collate them into one convenient spot.
-</div>
-';
+<hr>';
+  echo '
+  <div class="panel panel-default">
+  <div class="panel-heading"><h4>Last Updated:</h4></div>';
+  $date = new DateTime($git3[0]["commit"]["committer"]["date"], new DateTimeZone('UTC'));
+  $date->setTimezone(new DateTimeZone('America/New_York'));
+  echo '
+  <div class="panel-body">'.date_format($date,'F d, Y h:i a T').'<br><b><i>Notes:</b> '.$git3[0]['commit']['message'].'</i></div>
+</div>';
+echo"</div>";
 foreach ($towns as $town){
   echo'
     <div id="'.$town[0].'" class="tab-pane fade">
