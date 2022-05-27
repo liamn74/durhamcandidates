@@ -81,19 +81,15 @@ echo '</ul>
 <div id="home" class="tab-pane fade in active">
 <h1>Welcome!</h1>
 <p>Thank you for visiting. This website is designed to collect all of the candidates running for office across Durham Region and collate them into one convenient spot.
-<hr>
-<h2>Recent Updates:</h2>';
-for($i = 0; $i < 4; ++$i){
+<hr>';
   echo '
   <div class="panel panel-default">
-  <div class="panel-body"><h4>'.$git3[$i]["commit"]["message"].'</h4></div>';
-  $date = new DateTime($git3[$i]["commit"]["committer"]["date"], new DateTimeZone('UTC'));
+  <div class="panel-heading"><h4>Last Updated:</h4></div>';
+  $date = new DateTime($git3[0]["commit"]["committer"]["date"], new DateTimeZone('UTC'));
   $date->setTimezone(new DateTimeZone('America/New_York'));
   echo '
-  <div class="panel-footer">'.date_format($date,'F d, Y h:i a T').'</div>
-</div>
-<hr>';
-    }
+  <div class="panel-body">'.date_format($date,'F d, Y h:i a T').'</div>
+</div>';
 echo"</div>";
 foreach ($towns as $town){
   echo'
