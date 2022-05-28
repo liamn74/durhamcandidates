@@ -14,16 +14,16 @@
 14,Ajax,Local Councillor Ward 1,1,CC
 15,Ajax,Local Councillor Ward 2,1,CC
 16,Ajax,Local Councillor Ward 3,1,CC
-17,Ajax,DDSB Trustee(2),2,TRU
-18,Ajax,DCDSB Trustee(2),2,TRU
+17,Ajax,DDSB Trustee,2,TRU
+18,Ajax,DCDSB Trustee,2,TRU
 19,Whitby,Mayor,1,HOC
-20,Whitby,Regional Councillor (4 to be elected),4,RC
+20,Whitby,Regional Councillor ,4,RC
 21,Whitby,North Ward Councillor,1,CC
 22,Whitby,West Ward Councillor,1,CC
 23,Whitby,Centre Ward Councillor,1,CC
 24,Whitby,East Ward Councillor,1,CC
-25,Whitby,DDSB Trustee (three to be elected),3,TRU
-26,Whitby,DCDSB Trustee (two to be elected),2,TRU
+25,Whitby,DDSB Trustee,3,TRU
+26,Whitby,DCDSB Trustee,2,TRU
 27,Oshawa,Mayor,1,HOC
 28,Oshawa,Ward 1 Regional & City Councillor,1,RC
 29,Oshawa,Ward 1 City Councillor,1,CC
@@ -35,8 +35,8 @@
 35,Oshawa,Ward 4 City Councillor,1,CC
 36,Oshawa,Ward 5 Regional & City Councillor,1,RC
 37,Oshawa,Ward 5 City Councillor,1,CC
-38,Oshawa,Durham District School Board Trustee (3 to be elected),3,TRU
-39,Oshawa,DCDSB Trustee (2 to be elected),2,TRU
+38,Oshawa,Durham District School Board Trustee,3,TRU
+39,Oshawa,DCDSB Trustee,2,TRU
 40,Oshawa,Conseil Scolaire de District du Centre Sud-Ouest Trustee,1,TRU
 41,Oshawa,Conseil scolaire catholique MonAvenir Trustee,1,TRU
 42,Clarington,Mayor,1,HOC
@@ -46,8 +46,8 @@
 46,Clarington,Local Councillor Ward 2,1,CC
 47,Clarington,Local Councillor Ward 3,1,CC
 48,Clarington,Local Councillor Ward 4,1,CC
-49,Clarington,Kawartha Pine Ridge District School Board Trustee (English Public) 2 to be elected,2,TRU
-50,Clarington,Peterborough Victoria Northumberland and Clarington Catholic District School Board Trustee (English Separate) 2 to be elected,2,TRU
+49,Clarington,Kawartha Pine Ridge District School Board Trustee (English Public),2,TRU
+50,Clarington,Peterborough Victoria Northumberland and Clarington Catholic District School Board Trustee (English Separate),2,TRU
 51,Brock,Mayor,1,HOC
 52,Brock,Regional Councillor,1,RC
 53,Brock,Councillor Ward 1,1,CC
