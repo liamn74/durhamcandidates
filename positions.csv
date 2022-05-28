@@ -1,74 +1,74 @@
-﻿1,Pickering,Mayor,1,HOC,,,,
-2,Pickering,Regional Councillor Ward 1,1,RC,,,,
-3,Pickering,Regional Councillor Ward 2,1,RC,,,,
-4,Pickering,Regional Councillor Ward 3,1,RC,,,,"1,2,3,4,5,6,7,8,9"
-5,Pickering,City Councillor Ward 1,1,CC,,,,
-6,Pickering,City Councillor Ward 2,1,CC,,,,
-7,Pickering,City Councillor Ward 3,1,CC,,,,
-8,Pickering,DDSB Trustee,2,TRU,,,,
-9,Pickering,DCDSB Trustee,1,TRU,,,,
-10,Ajax,Mayor,1,HOC,,,,
-11,Ajax,Regional Councillor Ward 1,1,RC,,,,
-12,Ajax,Regional Councillor Ward 2,1,RC,,,,
-13,Ajax,Regional Councillor Ward 3,1,RC,,,,
-14,Ajax,Local Councillor Ward 1,1,CC,,,,
-15,Ajax,Local Councillor Ward 2,1,CC,,,,
-16,Ajax,Local Councillor Ward 3,1,CC,,,,
-17,Ajax,DDSB Trustee(2),2,TRU,,,,
-18,Ajax,DCDSB Trustee(2),2,TRU,,,,
-19,Whitby,Mayor,1,HOC,,,,
-20,Whitby,Regional Councillor (4 to be elected),4,RC,,,,
-21,Whitby,North Ward Councillor,1,CC,,,,
-22,Whitby,West Ward Councillor,1,CC,,,,
-23,Whitby,Centre Ward Councillor,1,CC,,,,
-24,Whitby,East Ward Councillor,1,CC,,,,
-25,Whitby,DDSB Trustee (three to be elected),3,TRU,,,,
-26,Whitby,DCDSB Trustee (two to be elected),2,TRU,,,,
-27,Oshawa,Mayor,1,HOC,,,,
-28,Oshawa,Ward 1 Regional & City Councillor,1,RC,,,,
-29,Oshawa,Ward 1 City Councillor,1,CC,,,,
-30,Oshawa,Ward 2 Regional & City Councillor,1,RC,,,,
-31,Oshawa,Ward 2 City Councillor,1,CC,,,,
-32,Oshawa,Ward 3 Regional & City Councillor,1,RC,,,,
-33,Oshawa,Ward 3 City Councillor,1,CC,,,,
-34,Oshawa,Ward 4 Regional & City Councillor,1,RC,,,,
-35,Oshawa,Ward 4 City Councillor,1,CC,,,,
-36,Oshawa,Ward 5 Regional & City Councillor,1,RC,,,,
-37,Oshawa,Ward 5 City Councillor,1,CC,,,,
-38,Oshawa,Durham District School Board Trustee (3 to be elected),3,TRU,,,,
-39,Oshawa,DCDSB Trustee (2 to be elected),2,TRU,,,,
-40,Oshawa,Conseil Scolaire de District du Centre Sud-Ouest Trustee,1,TRU,,,,
-41,Oshawa,Conseil scolaire catholique MonAvenir Trustee,1,TRU,,,,
-42,Clarington,Mayor,1,HOC,,,,
-43,Clarington,Regional Councillor Ward 1 and 2,1,RC,,,,
-44,Clarington,Regional Councillor Ward 3 and 4,1,RC,,,,
-45,Clarington,Local Councillor Ward 1,1,CC,,,,
-46,Clarington,Local Councillor Ward 2,1,CC,,,,
-47,Clarington,Local Councillor Ward 3,1,CC,,,,
-48,Clarington,Local Councillor Ward 4,1,CC,,,,
-49,Clarington,Kawartha Pine Ridge District School Board Trustee (English Public) 2 to be elected,2,TRU,,,,
-50,Clarington,Peterborough Victoria Northumberland and Clarington Catholic District School Board Trustee (English Separate) 2 to be elected,2,TRU,,,,
-51,Brock,Mayor,1,HOC,,,,
-52,Brock,Regional Councillor,1,RC,,,,
-53,Brock,Councillor Ward 1,1,CC,,,,
-54,Brock,Councillor Ward 2,1,CC,,,,
-55,Brock,Councillor Ward 3,1,CC,,,,
-56,Brock,Councillor Ward 4,1,CC,,,,
-57,Brock,Councillor Ward 5,1,CC,,,,
-58,Uxbridge,Mayor,1,HOC,,,,
-59,Uxbridge,Regional Councillor,1,RC,,,,
-60,Uxbridge,Councillor Ward 1,1,CC,,,,
-61,Uxbridge,Councillor Ward 2,1,CC,,,,
-62,Uxbridge,Councillor Ward 3,1,CC,,,,
-63,Uxbridge,Councillor Ward 4,1,CC,,,,
-64,Uxbridge,Councillor Ward 5,1,CC,,,,
-65,Uxbridge,DDSB Trustee Uxbridge Scugog Brock,1,TRU,,,,
-66,Uxbridge,DCDSB Trustee Uxbridge Scugog Brock,1,TRU,,,,
-67,Scugog,Mayor,1,HOC,,,,
-68,Scugog,Regional Councillor,1,RC,,,,
-69,Scugog,Councillor Ward 1,1,CC,,,,
-70,Scugog,Councillor Ward 2,1,CC,,,,
-71,Scugog,Councillor Ward 3,1,CC,,,,
-72,Scugog,Councillor Ward 4,1,CC,,,,
-73,Scugog,Councillor Ward 5,1,CC,,,,
-74,Durham,Regional Chair,1,HOC,,,,
+﻿1,Pickering,Mayor,1,HOC
+2,Pickering,Regional Councillor Ward 1,1,RC
+3,Pickering,Regional Councillor Ward 2,1,RC
+4,Pickering,Regional Councillor Ward 3,1,RC
+5,Pickering,City Councillor Ward 1,1,CC
+6,Pickering,City Councillor Ward 2,1,CC
+7,Pickering,City Councillor Ward 3,1,CC
+8,Pickering,DDSB Trustee,2,TRU
+9,Pickering,DCDSB Trustee,1,TRU
+10,Ajax,Mayor,1,HOC
+11,Ajax,Regional Councillor Ward 1,1,RC
+12,Ajax,Regional Councillor Ward 2,1,RC
+13,Ajax,Regional Councillor Ward 3,1,RC
+14,Ajax,Local Councillor Ward 1,1,CC
+15,Ajax,Local Councillor Ward 2,1,CC
+16,Ajax,Local Councillor Ward 3,1,CC
+17,Ajax,DDSB Trustee(2),2,TRU
+18,Ajax,DCDSB Trustee(2),2,TRU
+19,Whitby,Mayor,1,HOC
+20,Whitby,Regional Councillor (4 to be elected),4,RC
+21,Whitby,North Ward Councillor,1,CC
+22,Whitby,West Ward Councillor,1,CC
+23,Whitby,Centre Ward Councillor,1,CC
+24,Whitby,East Ward Councillor,1,CC
+25,Whitby,DDSB Trustee (three to be elected),3,TRU
+26,Whitby,DCDSB Trustee (two to be elected),2,TRU
+27,Oshawa,Mayor,1,HOC
+28,Oshawa,Ward 1 Regional & City Councillor,1,RC
+29,Oshawa,Ward 1 City Councillor,1,CC
+30,Oshawa,Ward 2 Regional & City Councillor,1,RC
+31,Oshawa,Ward 2 City Councillor,1,CC
+32,Oshawa,Ward 3 Regional & City Councillor,1,RC
+33,Oshawa,Ward 3 City Councillor,1,CC
+34,Oshawa,Ward 4 Regional & City Councillor,1,RC
+35,Oshawa,Ward 4 City Councillor,1,CC
+36,Oshawa,Ward 5 Regional & City Councillor,1,RC
+37,Oshawa,Ward 5 City Councillor,1,CC
+38,Oshawa,Durham District School Board Trustee (3 to be elected),3,TRU
+39,Oshawa,DCDSB Trustee (2 to be elected),2,TRU
+40,Oshawa,Conseil Scolaire de District du Centre Sud-Ouest Trustee,1,TRU
+41,Oshawa,Conseil scolaire catholique MonAvenir Trustee,1,TRU
+42,Clarington,Mayor,1,HOC
+43,Clarington,Regional Councillor Ward 1 and 2,1,RC
+44,Clarington,Regional Councillor Ward 3 and 4,1,RC
+45,Clarington,Local Councillor Ward 1,1,CC
+46,Clarington,Local Councillor Ward 2,1,CC
+47,Clarington,Local Councillor Ward 3,1,CC
+48,Clarington,Local Councillor Ward 4,1,CC
+49,Clarington,Kawartha Pine Ridge District School Board Trustee (English Public) 2 to be elected,2,TRU
+50,Clarington,Peterborough Victoria Northumberland and Clarington Catholic District School Board Trustee (English Separate) 2 to be elected,2,TRU
+51,Brock,Mayor,1,HOC
+52,Brock,Regional Councillor,1,RC
+53,Brock,Councillor Ward 1,1,CC
+54,Brock,Councillor Ward 2,1,CC
+55,Brock,Councillor Ward 3,1,CC
+56,Brock,Councillor Ward 4,1,CC
+57,Brock,Councillor Ward 5,1,CC
+58,Uxbridge,Mayor,1,HOC
+59,Uxbridge,Regional Councillor,1,RC
+60,Uxbridge,Councillor Ward 1,1,CC
+61,Uxbridge,Councillor Ward 2,1,CC
+62,Uxbridge,Councillor Ward 3,1,CC
+63,Uxbridge,Councillor Ward 4,1,CC
+64,Uxbridge,Councillor Ward 5,1,CC
+65,Uxbridge,DDSB Trustee Uxbridge Scugog Brock,1,TRU
+66,Uxbridge,DCDSB Trustee Uxbridge Scugog Brock,1,TRU
+67,Scugog,Mayor,1,HOC
+68,Scugog,Regional Councillor,1,RC
+69,Scugog,Councillor Ward 1,1,CC
+70,Scugog,Councillor Ward 2,1,CC
+71,Scugog,Councillor Ward 3,1,CC
+72,Scugog,Councillor Ward 4,1,CC
+73,Scugog,Councillor Ward 5,1,CC
+74,Durham,Regional Chair,1,HOC
