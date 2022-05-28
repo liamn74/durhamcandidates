@@ -23,6 +23,11 @@ $positfile = array_map('str_getcsv', file('positions.csv'));
 $towns = array();
 $candiates = array();
 $positions = array();
+$hoc = 0;
+$rc = 0;
+$lc = 0;
+$tru = 0;
+
 foreach ($file as $key=>$value){
   $towns[] = array($value[0],$value[1],explode(",",$value[2]),$value[3]);
 }
@@ -36,6 +41,25 @@ foreach ($positfile as $key=>$value){
 }
 sort($positions);
 $count = 0;
+foreach ($towns as $town){
+  foreach($positions as $position){
+    if($position[1] == $town[0]){
+    foreach ($candidates as $line1){
+      if($line1[0] == $town[0] && $line1[1] == $position[0]){
+        if($position[4] == "HOC"){
+          $hoc++;
+        }elseif($position[4] == "RC"){
+          $rc++;
+        }elseif($position[4] == "CC"){
+          $cc++;
+        }elseif($position[4] == "TRU"){
+          $tru++;
+        }
+      }
+}
+    }
+  }
+}
 echo'
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -101,7 +125,7 @@ echo '</ul>
 </div>
 </div>
 <div class="col-md-6"><div class="panel panel-default">
-  <div class="panel-heading"><h4>Total Candidates Running:</h4></div><div class="panel-body"><h4>'.$sum.'</h4></div></div></div></div>';
+  <div class="panel-heading"><h4>Statistics:</h4></div><div class="panel-body"><p><span class="badge"style="background-color:green">'.$sum.'</span> candidates are running in total<p><span class="badge"style="background-color:green">'.$hoc.'</span> are running for Mayor or Regional Chair<p><span class="badge"style="background-color:green">'.$rc.'</span> are running for Regional Councillor<p><span class="badge"style="background-color:green">'.$cc.'</span> are running for Local Councillor<p><span class="badge"style="background-color:green">'.$tru.'</span> are running for School Board Trustee</div></div></div></div>';
 echo"</div>";
 foreach ($towns as $town){
   echo'
@@ -112,7 +136,7 @@ foreach ($towns as $town){
     if($position[1] == $town[0]){
     echo'
     <div class="panel panel-default">
-      <div class="panel-heading"><h3>'.$position[2].' <span class ="badge">'.$position[3].' to be elected</span></h3>
+      <div class="panel-heading"><h3>'.$position[2].' <p><hr><span class ="badge">'.$position[3].' to be elected</span></h3>
       </div>
       <div class="panel-body" style ="overflow-x:auto;">
 <table class="table table-hover" style="white-space: nowrap;">
