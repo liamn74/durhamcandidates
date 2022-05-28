@@ -112,7 +112,7 @@ foreach ($towns as $town){
     if($position[1] == $town[0]){
     echo'
     <div class="panel panel-default">
-      <div class="panel-heading"><h3>'.$position[2].' <span class ="badge">'.$position[3].' to be elected.</span></h3>
+      <div class="panel-heading"><h3>'.$position[2].' <span class ="badge">'.$position[3].' to be elected</span></h3>
       </div>
       <div class="panel-body" style ="overflow-x:auto;">
 <table class="table table-hover" style="white-space: nowrap;">
