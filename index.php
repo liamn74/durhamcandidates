@@ -19,8 +19,10 @@ foreach($git1 as $git2){
 $sum=0;
 $file = array_map('str_getcsv', file('test.csv'));
 $csv = array_map('str_getcsv', file('candidates.csv'));
+$positfile = array_map('str_getcsv', file('positions.csv'));
 $towns = array();
 $candiates = array();
+$positions = array();
 foreach ($file as $key=>$value){
   $towns[] = array($value[0],$value[1],explode(",",$value[2]),$value[3]);
 }
@@ -29,6 +31,10 @@ foreach ($csv as $key=>$value){
   $candidates[] = array($value[0],$value[1],$value[2],$value[3],$value[4],$value[5],$value[6],$value[7],$value[8],$value[9],$value[10]);
 }
 sort($candidates);
+foreach ($positfile as $key=>$value){
+  $positions[] = array($value[0],$value[1],$value[2],$value[3],$value[4]);
+}
+sort($positions);
 $count = 0;
 echo'
   <meta charset="utf-8">
@@ -102,10 +108,11 @@ foreach ($towns as $town){
     <div id="'.$town[0].'" class="tab-pane fade">
       <h2>'.$town[0].'</h2><a href="'.$town[3].'"target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-info" >Source Information</button></a><p>';
 
-  foreach($town[2] as $position){
+  foreach($positions as $position){
+    if($position[1] == $town[0]){
     echo'
     <div class="panel panel-default">
-      <div class="panel-heading"><h3>'.$position.'</h3>
+      <div class="panel-heading"><h3>'.$position[2].' <span class ="badge">'.$position[3].' to be elected.</span></h3>
       </div>
       <div class="panel-body" style ="overflow-x:auto;">
 <table class="table table-hover" style="white-space: nowrap;">
@@ -119,7 +126,7 @@ foreach ($towns as $town){
     </thead>
     <tbody>';
     foreach ($candidates as $line1){
-        if($line1[0] == $town[0] && $line1[1] == $position){
+        if($line1[0] == $town[0] && $line1[1] == $position[0]){
           echo '
           <tr>        
             <td>';
@@ -148,6 +155,7 @@ foreach ($towns as $town){
 
   </div>
 ';
+  }
   }
       echo '</div>';
 }
