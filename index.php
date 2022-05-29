@@ -27,7 +27,7 @@ $hoc = 0;
 $rc = 0;
 $lc = 0;
 $tru = 0;
-
+$spots = 0;
 foreach ($file as $key=>$value){
   $towns[] = array($value[0],$value[1],explode(",",$value[2]),$value[3]);
 }
@@ -39,9 +39,13 @@ sort($candidates);
 foreach ($positfile as $key=>$value){
   $positions[] = array($value[0],$value[1],$value[2],$value[3],$value[4]);
 }
+foreach ($positions as $position){
+  $spots = $spots + $position[3];
+}
 $count = 0;
 foreach ($towns as $town){
   foreach($positions as $position){
+    
     if($position[1] == $town[0]){
     foreach ($candidates as $line1){
       if($line1[0] == $town[0] && $line1[1] == $position[0]){
@@ -109,8 +113,11 @@ foreach ($towns as $town){
 echo '</ul>
 <div class="tab-content">
 <div id="home" class="tab-pane fade in active">
-<h1>Welcome!</h1>
-<p>Thank you for visiting. This website is designed to collect all of the candidates running for office across Durham Region and collate them into one convenient spot.
+<h2>Welcome!</h2>
+<p>Thank you for visiting.<br><br>This resource is meant to help track who is running across all '.$spots.' positions to be elected in the upcoming municipal election in Durham Region.
+<br><br>
+Information is not gathered in real time. For the latest and most up to date information, please visit each municipality'."'".'s source data.
+<br><br><b>Election day is Monday, October 24th, 2022. Please vote.</b>
 <hr>';
   echo '
 <div class="row">
@@ -168,8 +175,9 @@ foreach ($towns as $town){
           <a href="'.$line1[7].'" target="_blank" rel="noopener noreferrer"">'.$line1[7].'</a>
           </td>';
   }
-      echo "</tr>";
+      
 }
+      echo "</tr>";
     echo "</td>";
     echo'
    </tbody>
