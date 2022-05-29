@@ -39,7 +39,6 @@ sort($candidates);
 foreach ($positfile as $key=>$value){
   $positions[] = array($value[0],$value[1],$value[2],$value[3],$value[4]);
 }
-sort($positions);
 $count = 0;
 foreach ($towns as $town){
   foreach($positions as $position){
