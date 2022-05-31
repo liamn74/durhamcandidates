@@ -63,7 +63,20 @@ foreach ($towns as $town){
     }
   }
 }
-echo'
+echo'<head>
+<meta property="og:url"                content="liamnichols.ca" />
+<meta property="og:title"              content="Durham Region Candidates Guide" />
+<meta property="og:description"        content="A comprehensive list of candidates running for municipal office across Durham Region" />
+<meta property="og:image"              content="social.jpeg" />
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HF8EHH9CXQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("js", new Date());
+
+  gtag("config", "G-HF8EHH9CXQ");
+</script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -80,6 +93,7 @@ $(document).ready(function(){
 <meta name="twitter:title" content="Durham Region Candidates Guide">
 <meta name="twitter:description" content="A comprehensive list of candidates running for municipal office across Durham Region.">
 <meta name="twitter:image" content="social.jpeg">
+</body>
 <body>
 <div class="jumbotron" style="background-color:midnightblue;color:white;">
 <div class="container-fluid">
