@@ -68,7 +68,7 @@ echo'<head>
 <meta property="og:url"                content="liamnichols.ca" />
 <meta property="og:title"              content="Durham Region Candidates Guide" />
 <meta property="og:description"        content="A comprehensive list of candidates running for municipal office across Durham Region" />
-<meta property="og:image"              content="/social.jpeg" />
+<meta property="og:image"              content="/social.jpg" />
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HF8EHH9CXQ"></script>
 <script>
@@ -93,7 +93,7 @@ $(document).ready(function(){
 <meta name="twitter:creator" content="@whitbynerd">
 <meta name="twitter:title" content="Durham Region Candidates Guide">
 <meta name="twitter:description" content="A comprehensive list of candidates running for municipal office across Durham Region.">
-<meta name="twitter:image" content="/social.jpeg">
+<meta name="twitter:image" content="/social.jpg">
 </body>
 <body>
 <div class="jumbotron" style="background-color:midnightblue;color:white;">
