@@ -82,7 +82,9 @@ echo'<head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>';
+
+echo '
 <script>
 $(document).ready(function(){
   $("[data-toggle='."tooltip".']").tooltip();   
@@ -205,7 +207,17 @@ foreach ($towns as $town){
   }
       echo '</div>';
 }
-echo '</div></div></div></div>
+echo '</div></div></div></div><br><br><br><br>';
+echo "<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+  kofiWidgetOverlay.draw('liamnicholsca', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Donate',
+    'floating-chat.donateButton.background-color': '#d9534f',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
+</script>";
+echo '
 </body>
 ';
   ?>
