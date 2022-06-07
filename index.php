@@ -135,6 +135,9 @@ echo '</ul>
 <br><br>
 Information is not gathered in real time. For the latest and most up to date information, please visit each municipality'."'".'s source data.
 <br><br><b>Election day is Monday, October 24th, 2022. Please vote.</b>
+<div class="panel panel-primary">
+      <div class="panel-heading">Donations</div>
+      <div class="panel-body">Hosting this resource and keeping it up to date does take time and money.<p><p>Please consider donating using the button at the bottom left so I can continue to provide it.<p><p>Your support is much appreciated!</div></div>
 <hr>';
   echo '
 <div class="row">
