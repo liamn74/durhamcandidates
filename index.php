@@ -106,7 +106,7 @@ $(document).ready(function(){
 <meta name="twitter:title" content="Durham Region Candidates Guide">
 <meta name="twitter:description" content="A comprehensive list of candidates running for municipal office across Durham Region.">
 <meta name="twitter:image" content="https://www.liamnichols.ca/social.jpg">
-</body>
+</head>
 <body>
 <div class="jumbotron" style="background-color:midnightblue;color:white;">
 <div class="container-fluid">
