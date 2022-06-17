@@ -35,7 +35,7 @@ foreach ($file as $key=>$value){
 }
 sort($towns);
 foreach ($csv as $key=>$value){
-  $candidates[] = array($value[0],$value[1],$value[2],$value[3],$value[4],$value[5],$value[6],$value[7],$value[8],$value[9],$value[10],$value[11]);
+  $candidates[] = array($value[3],$value[1],$value[2],$value[0],$value[4],$value[5],$value[6],$value[7],$value[8],$value[9],$value[10],$value[11]);
 }
 sort($candidates);
 foreach ($positfile as $key=>$value){
@@ -194,7 +194,7 @@ foreach ($towns as $town){
             echo '<span class="badge"style="background-color:green" data-toggle="tooltip"" title="This person currently holds this office.">Incumbent</span>&nbsp;';
           }
           echo
-          $line1[4]." ".$line1[3].'
+          $line1[4]." ".$line1[0].'
           <td>
           <a href ="mailto:'.$line1[7].'">'.$line1[7].'</a>
           </td>
