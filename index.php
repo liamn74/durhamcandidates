@@ -190,19 +190,19 @@ foreach ($towns as $town){
           echo '
           <tr>        
             <td>';
-          if($line1[4] == 1){
+          if($line1[5] == 1){
             echo '<span class="badge"style="background-color:green" data-toggle="tooltip"" title="This person currently holds this office.">Incumbent</span>&nbsp;';
           }
           echo
-          $line1[3]." ".$line1[2].'
+          $line1[4]." ".$line1[3].'
           <td>
-          <a href ="mailto:'.$line1[6].'">'.$line1[6].'</a>
+          <a href ="mailto:'.$line1[7].'">'.$line1[7].'</a>
           </td>
           <td>
-          '.$line1[5].'
+          '.$line1[6].'
           </td>'.'
           <td>
-          <a href="'.$line1[7].'" target="_blank" rel="noopener noreferrer"">'.$line1[7].'</a>
+          <a href="'.$line1[8].'" target="_blank" rel="noopener noreferrer"">'.$line1[8].'</a>
           </td>';
   }
       
