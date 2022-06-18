@@ -63,7 +63,7 @@ A comprehensive list of candidates running for municipal office across Durham Re
 <div class = "col-sm-1"></div>
 <div class="col-md-5">
 
-<h1>Candidates for Regional Chair</h1>
+<h1>Regional Chair</h1>
 <h1><small class="text-muted">Municipality of Durham</small>
 </h1>
 <hr/>
@@ -73,7 +73,7 @@ A comprehensive list of candidates running for municipal office across Durham Re
       <div class="panel-body" style ="overflow-x:auto;">
 <dl class="row">
   <dt class="col-sm-3">Incumbent</dt>
-  <dd class="col-sm-9">John Henry<hr></dd>
+  <dd class="col-sm-9">John Henry<small class="text-muted"> | Running for Re-Election</small><hr></dd>
 
   <dt class="col-sm-3">Role</dt>
   <dd class="col-sm-9">Head of Durham Regional Council<hr></dd>
