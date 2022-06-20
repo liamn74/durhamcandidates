@@ -17,9 +17,9 @@ foreach($git1 as $git2){
   $git3[] = $git2;
 }
 $sum=0;
-$file = array_map('str_getcsv', file('test.csv'));
-$csv = array_map('str_getcsv', file('candidates.csv'));
-$positfile = array_map('str_getcsv', file('positions.csv'));
+$file = array_map('str_getcsv', file('website/test.csv'));
+$csv = array_map('str_getcsv', file('website/candidates.csv'));
+$positfile = array_map('str_getcsv', file('website/positions.csv'));
 $towns = array();
 $candiates = array();
 $positions = array();
@@ -73,8 +73,9 @@ foreach ($towns as $town){
     }
   }
 }
-echo'<head>
-<link rel="icon" type="image/x-icon" href="/favicon.jpg">
+echo'<head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8849894797310514"
+     crossorigin="anonymous"></script>
+<link rel="icon" type="image/x-icon" href="website/favicon.jpg">
 <meta property="og:url"                content="liamnichols.ca" />
 <meta property="og:title"              content="Durham Region Candidates Guide" />
 <meta property="og:description"        content="A comprehensive list of candidates running for municipal office across Durham Region" />
@@ -140,11 +141,23 @@ foreach ($towns as $town){
 echo '</ul>
 <div class="tab-content">
 <div id="home" class="tab-pane fade in active">
+<div class = "row">
+<div class = "col-md-6">
 <h2>Welcome!</h2>
 <p>Thank you for visiting.<br><br>This resource is meant to help track who is running across all '.$spots.' positions to be elected in the upcoming municipal election in Durham Region.
 <br><br>
 Information is not gathered in real time. For the latest and most up to date information, please visit each municipality'."'".'s source data.
-<br><br><b>Election day is Monday, October 24th, 2022. Please vote.</b>
+<br><br><b><mark>Election day is Monday, October 24th, 2022. Please vote.</mark></b></div>
+<div class="col-md-6">
+<br>
+<div class="panel panel-default">
+  <div class="panel-heading"><h4>'."Check If You're On The Voter's List".'</h4></div>
+  <div class="panel-body">
+    <a href="https://voterlookup.ca/home.aspx" target="_blank" rel="noopener noreferrer"><img class="img-responsive" src = "https://voterlookup.ca/images/MPAC-VLU-Logo.png""></a>
+  </div>
+</div>
+</div>
+</div>
 <div class="panel panel-primary">
       <div class="panel-heading">Donations</div>
       <div class="panel-body">Hosting this resource and keeping it up to date does take time and money.<p><p>Please consider donating using the button at the bottom left so I can continue to provide it.<p><p>Your support is much appreciated!</div></div>
@@ -161,7 +174,7 @@ Information is not gathered in real time. For the latest and most up to date inf
 </div>
 </div>
 <div class="col-md-6"><div class="panel panel-default">
-  <div class="panel-heading"><h4>Statistics:</h4></div><div class="panel-body"><p><span class="badge"style="background-color:#45B39D">'.$sum.'</span> candidates are running in total<p><span class="badge"style="background-color:#16A085">'.$hoc.'</span> are running for Mayor or Regional Chair<p><span class="badge"style="background-color:#138D75">'.$rc.'</span> are running for Regional Councillor<p><span class="badge"style="background-color:#117A65">'.$cc.'</span> are running for Local Councillor<p><span class="badge"style="background-color:#0E6655">'.$tru.'</span> are running for School Board Trustee<p><span class="badge"style="background-color:#E74C3C">'.$nocans.'</span> positions do not have any candidates.</div></div></div></div>';
+  <div class="panel-heading"><h4>By The Numbers:</h4></div><div class="panel-body"><p><span class="badge"style="background-color:#45B39D">'.$sum.'</span> candidates are running in total<p><span class="badge"style="background-color:#16A085">'.$hoc.'</span> are running for Mayor or Regional Chair<p><span class="badge"style="background-color:#138D75">'.$rc.'</span> are running for Regional Councillor<p><span class="badge"style="background-color:#117A65">'.$cc.'</span> are running for Local Councillor<p><span class="badge"style="background-color:#0E6655">'.$tru.'</span> are running for School Board Trustee<p><span class="badge"style="background-color:#E74C3C">'.$nocans.'</span> positions do not have any candidates.</div></div></div></div>';
 echo"</div>";
 foreach ($towns as $town){
   echo'
@@ -172,7 +185,7 @@ foreach ($towns as $town){
     if($position[1] == $town[0]){
     echo'
     <div class="panel panel-default">
-      <div class="panel-heading"><h3>'.$position[2].' <p><hr><span class ="badge">'.$position[3].' to be elected</span></h3>
+      <div class="panel-heading"><a href ="https://www.liamnichols.ca/website/offices.php?race='.$position[0].'"><h3>'.$position[2].' </a><p><hr><span class ="badge">'.$position[3].' to be elected</span></h3>
       </div>
       <div class="panel-body" style ="overflow-x:auto;">
 <table class="table table-hover" style="white-space: nowrap;">
