@@ -12,7 +12,7 @@
   $gitreturn = json_decode($json, true);
   foreach($gitreturn as $git){
     $git1[] = $git;
-  }
+  } 
 foreach($git1 as $git2){
   $git3[] = $git2;
 }
