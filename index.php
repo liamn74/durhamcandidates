@@ -73,7 +73,7 @@ foreach ($towns as $town){
     }
   }
 }
-echo'<head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8849894797310514"
+echo'<head><script src="https://kit.fontawesome.com/ccc537e79c.js" crossorigin="anonymous"></script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8849894797310514"
      crossorigin="anonymous"></script>
 <link rel="icon" type="image/x-icon" href="website/favicon.jpg">
 <meta property="og:url"                content="liamnichols.ca" />
@@ -142,13 +142,13 @@ echo '</ul>
 <div class="tab-content">
 <div id="home" class="tab-pane fade in active">
 <div class = "row">
-<div class = "col-md-6">
+<div class = "col-sm-6">
 <h2>Welcome!</h2>
 <p>Thank you for visiting.<br><br>This resource is meant to help track who is running across all '.$spots.' positions to be elected in the upcoming municipal election in Durham Region.
 <br><br>
 Information is not gathered in real time. For the latest and most up to date information, please visit each municipality'."'".'s source data.
 <br><br><b><mark>Election day is Monday, October 24th, 2022. Please vote.</mark></b></div>
-<div class="col-md-6">
+<div class="col-sm-6">
 <br>
 <div class="panel panel-default">
   <div class="panel-heading"><h4>'."Check If You're On The Voter's List".'</h4></div>
@@ -160,7 +160,7 @@ Information is not gathered in real time. For the latest and most up to date inf
 </div>
 <div class="panel panel-primary">
       <div class="panel-heading">Donations</div>
-      <div class="panel-body">Hosting this resource and keeping it up to date does take time and money.<p><p>Please consider donating using the button at the bottom left so I can continue to provide it.<p><p>Your support is much appreciated!</div></div>
+      <div class="panel-body">Hosting this resource and keeping it up to date does take time and money.<p><p>Please consider donating using the button at the bottom left so I can continue to provide it.<p><p>I am <mark>not</mark> affiliated with any government or institution. This is an individual effort. <p><p>Your support is much appreciated!<p><p>Liam Nichols<br><a href="https://www.twitter.com/whitbynerd"target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i>@whitbynerd</a></div></div>
 <hr>';
   echo '
 <div class="row">
