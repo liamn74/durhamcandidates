@@ -58,7 +58,7 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 57,Oshawa,30,Marimpietri,Tito-Dante,1,905-447-9539,votetitodante@gmail.com,http://titodante.ca/
 58,Oshawa,31,Giancroce,Jonathan ,,,info@jonathangiancroce.ca,http://www.jonathangiancroce.ca/
 59,Oshawa,34,Kerr,Rick,1,905-434-8084,rrkerr@msn.com,http://electrickkerr.ca/
-60,Oshawa,35,Dandavino,Kristine,,905-995-2847,kristinedandavino@hotmail.com,
+60,Oshawa,35,Dandavino,Kristine,,905-995-2847,kristinedandavino@hotmail.com,https://kristineward4.ca/
 61,Oshawa,35,Thompson,Dave ,,905-213-6445,fincadali@yahoo.com,
 62,Oshawa,35,Bountrogiannis,James,,905-718-7335,jamesb.oshawa.muni@gmail.com,
 63,Oshawa,36,Nicholson,Brian,1,905-434-2304,bnicholson2000@rogers.com,
@@ -73,9 +73,9 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 72,Clarington,49,Abraham,Cathy ,1,905-987-1833,cathy1833@gmail.com,
 73,Clarington,49,Fehr,Kyle,,,,
 74,Clarington,49,Shomar,Tenzin,,647-233-8788,votetenzinshomar@gmail.com,
-75,Brock,51,Smith,Ted,,705-357-2427 | 705-464-7722,tedsmith1951@yahoo.ca ,
+75,Brock,51,Smith,Ted,2,705-357-2427 | 705-464-7722,tedsmith1951@yahoo.ca,,
 76,Brock,51,Schummer,Walter,,705-432-8464,contact@walterschummer.ca,http://www.walterschummer.ca/
-77,Brock,52,Jubb,Michael,,905-252-4487,electjubb@gmail.com ,
+77,Brock,52,Jubb,Michael,,905-252-4487,electjubb@gmail.com,
 78,Brock,53,Frank,Peter,,705-341-1432,pfrank.BrockWard1@gmail.com ,
 79,Brock,54,Doble,Claire,1,705-344-4768,,
 80,Brock,55,Canavan,Angela,,705-341-6529,acanavan705@gmail.com ,
@@ -109,4 +109,11 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 108,Clarington,42,Dingwall,Tom,,,dingwall4mayor@gmail.com,
 109,Oshawa,33,Marks,Bradley,1,905-259-9983,bradmarks30@hotmail.com,
 110,Pickering,5,Sloan,Karen,,905.626.3963,wags.whiskers@hotmail.com,
-111,Pickering,5,Soligo,Jeanine,,,,
+111,Pickering,5,Soligo,Jeanine,,,hello@voteforjeanine.ca,
+112,Brock,57,Laundrie,Tony,,705-344-2722,laundrietony@yahoo.ca,
+113,Pickering,6,Nagy,Mara,,416.795.8589,mnagy005@gmail.com,
+114,Whitby,25,Ceylan-Leamen,Melike,,,,
+115,Clarington,49,Brown,Paul,,289-928-9957,paulbrown1965@icloud.com,
+116,Pickering,6,Van Rooy,Nancy,,,,
+117,Oshawa,34,Sanders,Doug,,905-244-8843,dougsanders524@gmail.com,https://votedougsanders.ca/
+118,Whitby,25,Brown,Tracy,,,,

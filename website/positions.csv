@@ -35,8 +35,8 @@
 35,Oshawa,Ward 4 City Councillor,1,CC,Ward 4,
 36,Oshawa,Ward 5 Regional & City Councillor,1,RC,Ward 5,
 37,Oshawa,Ward 5 City Councillor,1,CC,Ward 5,
-38,Oshawa,Durham District School Board Trustee,3,TRU,"Ward 1,Ward 2,Ward 3,Ward 4,Ward 5",
-39,Oshawa,DCDSB Trustee,2,TRU,"Ward 1,Ward 2,Ward 3,Ward 4,Ward 5",
+38,Oshawa,Durham District School Board Trustee,3,TRU,"Ward 1,Ward 2,Ward 3,Ward 4,Ward 5",Public
+39,Oshawa,DCDSB Trustee,2,TRU,"Ward 1,Ward 2,Ward 3,Ward 4,Ward 5",Catholic
 40,Oshawa,Conseil Scolaire de District du Centre Sud-Ouest Trustee,1,TRU,,French Public
 41,Oshawa,Conseil scolaire catholique MonAvenir Trustee,1,TRU,,French Catholic
 42,Clarington,Mayor,1,HOC,"Ward 1,Ward 2,Ward 3,Ward 4",
@@ -62,8 +62,8 @@
 62,Uxbridge,Councillor Ward 3,1,CC,Ward 3,
 63,Uxbridge,Councillor Ward 4,1,CC,Ward 4,
 64,Uxbridge,Councillor Ward 5,1,CC,Ward 5,
-65,Uxbridge,DDSB Trustee Uxbridge Scugog Brock,1,TRU,,
-66,Uxbridge,DCDSB Trustee Uxbridge Scugog Brock,1,TRU,,
+65,Uxbridge,DDSB Trustee Uxbridge Scugog Brock,1,TRU,,Public
+66,Uxbridge,DCDSB Trustee Uxbridge Scugog Brock,1,TRU,,Catholic
 67,Scugog,Mayor,1,HOC,"Ward 1,Ward 2,Ward 3,Ward 4,Ward 5",
 68,Scugog,Regional Councillor,1,RC,"Ward 1,Ward 2,Ward 3,Ward 4,Ward 5",
 69,Scugog,Councillor Ward 1,1,CC,Ward 1,

@@ -1,39 +1,9 @@
 <?php
-$file = array_map('str_getcsv', file('test.csv'));
-$curposition = $_GET["race"];
-$towns = [];
+$file = array_map('str_getcsv', file('website/test.csv'));
 foreach ($file as $key=>$value){
   $towns[] = array($value[0],$value[1],explode(",",$value[2]),$value[3]);
 }
 sort($towns);
-foreach ($towns as $town){
-  if(in_array($curposition,$town[2]) == true){
-    
-    $sourcelink = $town[3];
-  }
-
-}
-
-$csv = array_map('str_getcsv', file('candidates.csv'));
-foreach ($csv as $key=>$value){
-  if($value[5]<>2){
-  $candidates[] = array($value[3],$value[1],$value[2],$value[0],$value[4],$value[5],$value[6],$value[7],$value[8],$value[9],$value[10],$value[11]);
-}
-}
-sort($candidates);
-$positions = [];
-$position = [];
-$positfile = array_map('str_getcsv', file('positions.csv'));
-foreach ($positfile as $key=>$value){
-  $positions[] = array($value[0],$value[1],$value[2],$value[3],$value[4]);
-};
-foreach ($positions as $posit){
-  if ($posit[0] == $curposition){
-    $position[] = $posit[1];
-    $position[] = $posit[2];
-    $position[] = $posit[3];
-  }
-};
 echo'<head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8849894797310514"
      crossorigin="anonymous"></script>
 <link rel="icon" type="image/x-icon" href="/favicon.jpg">
@@ -82,68 +52,24 @@ A comprehensive list of candidates running for municipal office across Durham Re
 </div>
 </div>
 </div>
-<div class="container-fluid" >
-<div class="row">
+<div class="container-fluid">
 <div class = "col-sm-1"></div>
 <div class = "col-sm-10">
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="https://www.liamnichols.ca">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Candidates for '.$position[1].' | Municipality of '.$position[0].'</li>
-  </ol>
-</nav>
-</div>
-<div class = "col-sm-1"></div>
-</div>
-<div class="row">
-<div class = "col-sm-1"></div>
-<div class="col-sm-10">
+<form action="wardselect.php" method="GET" role="form" class="form-horizontal">
+  <div class="form-group">
+    <label for="city" name = "city">Select your City</label>
+    <select class="form-control" id="city" name = "city">';
+foreach($towns as $town){
+  echo "<option>".$town[0]."</option>";
+    }
+echo '
+    </select>
+<br>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
 
-<h1>Candidates for '.$position[1].'<br>
-<small class="text-muted">Municipality of '.$position[0].'</small>
-</h1><span class ="badge">'.$position[2].' to be elected</span><br><br><a href="'.$sourcelink.'"target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-info" >Source Information</button></a><p><hr>
-<div class="panel panel-default"><div class="panel-body" style ="overflow-x:auto;">
-      <table class="table table-hover" style="white-space: nowrap;">
-    <thead>
-      <tr>
-        <th style="width:20%">Name</th>
-        <th style="width:20%">Email</th>
-        <th style="width:20%">Phone</th>
-        <th style="width:20%">Website</th>
-      </tr>
-    </thead>
-      
+</form>
 
-    <tbody>';
-    foreach ($candidates as $line1){
-        if($line1[2] == $curposition){
-          echo '
-          <tr>        
-            <td>';
-          if($line1[5] == 1){
-            echo '<span class="badge"style="background-color:green" data-toggle="tooltip"" title="This person currently holds this office.">Incumbent</span>&nbsp;';
-          }
-          echo
-          $line1[4]." ".$line1[0].'
-          <td>
-          <a href ="mailto:'.$line1[7].'">'.$line1[7].'</a>
-          </td>
-          <td>
-          '.$line1[6].'
-          </td>'.'
-          <td>
-          <a href="'.$line1[8].'" target="_blank" rel="noopener noreferrer"">'.$line1[8].'</a>
-          </td>';
-  }
-      
-}
-      echo "</tr>";
-    echo "</td>";
-    echo'
-   </tbody>
-  </table></div>
-
-</div>
 </div>
 <br><br><br><br>
 
