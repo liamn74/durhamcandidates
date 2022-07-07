@@ -1,7 +1,9 @@
 <?php
-$file = array_map('str_getcsv', file('website/test.csv'));
+$file = array_map('str_getcsv', file('test.csv'));
 foreach ($file as $key=>$value){
+  if($value[0]<>"Durham"){
   $towns[] = array($value[0],$value[1],explode(",",$value[2]),$value[3]);
+}
 }
 sort($towns);
 echo'<head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8849894797310514"

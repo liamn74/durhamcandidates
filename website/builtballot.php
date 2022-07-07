@@ -1,9 +1,9 @@
 <?php
 
 $counter = 0;
-$file = array_map('str_getcsv', file('website/test.csv'));
-$csv = array_map('str_getcsv', file('website/candidates.csv'));
-$positfile = array_map('str_getcsv', file('website/positions.csv'));
+$file = array_map('str_getcsv', file('test.csv'));
+$csv = array_map('str_getcsv', file('candidates.csv'));
+$positfile = array_map('str_getcsv', file('positions.csv'));
 $city = $_GET["city"];
 $gotward = $_GET["ward"];
 $school = $_GET["school"];
@@ -93,7 +93,7 @@ foreach ($positions as $position){
     echo'<div class="form-check">';
     foreach ($candidates as $candidate){
       if($candidate[2] == 74){
-        echo '        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        echo '        <input class="form-check-input" type="checkbox" value="" id="'.$candidate[3].'">
   <label class="form-check-label" for="flexCheckDefault" style="font-family:monospace;">
 '.$candidate[0].", ".$candidate[4].'
   </label><br>';
@@ -111,7 +111,7 @@ foreach ($positions as $position){
         echo'<div class="form-check">';
         foreach ($candidates as $candidate){
       if($candidate[2] == $position[0]){
-        echo '        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        echo '        <input class="form-check-input" type="checkbox" value="" id="'.$candidate[3].'">
   <label class="form-check-label" for="flexCheckDefault" style="font-family:monospace;">
 '.$candidate[0].", ".$candidate[4].'
   </label><br>';
@@ -131,7 +131,7 @@ if($school == "French Catholic"){
         echo'<div class="form-check">';
         foreach ($candidates as $candidate){
       if($candidate[2] == $position[0]){
-        echo '        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        echo '        <input class="form-check-input" type="checkbox" value="" id="'.$candidate[3].'">
   <label class="form-check-label" for="flexCheckDefault" style="font-family:monospace;">
 '.$candidate[0].", ".$candidate[4].'
   </label><br>';
@@ -150,7 +150,7 @@ elseif($school == "French Public"){
         echo'<div class="form-check">';
         foreach ($candidates as $candidate){
       if($candidate[2] == $position[0]){
-        echo '        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        echo '        <input class="form-check-input" type="checkbox" value="" id="'.$candidate[3].'">
   <label class="form-check-label" for="flexCheckDefault" style="font-family:monospace;">
 '.$candidate[0].", ".$candidate[4].'
   </label><br>';
@@ -169,7 +169,7 @@ elseif($schtype == "Public" and $city == "Brock" or $city == "Scugog" or $city =
         echo'<div class="form-check">';
         foreach ($candidates as $candidate){
       if($candidate[2] == $position[0]){
-        echo '        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        echo '        <input class="form-check-input" type="checkbox" value="" id="'.$candidate[3].'">
   <label class="form-check-label" for="flexCheckDefault" style="font-family:monospace;">
 '.$candidate[0].", ".$candidate[4].'
   </label><br>';
@@ -188,7 +188,7 @@ elseif($schtype == "Catholic" and $city == "Brock" or $city == "Scugog" or $city
         echo'<div class="form-check">';
         foreach ($candidates as $candidate){
       if($candidate[2] == $position[0]){
-        echo '        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        echo '        <input class="form-check-input" type="checkbox" value="" id="'.$candidate[3].'">
   <label class="form-check-label" for="flexCheckDefault" style="font-family:monospace;">
 '.$candidate[0].", ".$candidate[4].'
   </label><br>';
@@ -207,7 +207,7 @@ else{
         echo'<div class="form-check">';
         foreach ($candidates as $candidate){
       if($candidate[2] == $position[0]){
-        echo '        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        echo '        <input class="form-check-input" type="checkbox" value="" id="'.$candidate[3].'">
   <label class="form-check-label" for="flexCheckDefault" style="font-family:monospace;">
 '.$candidate[0].", ".$candidate[4].'
   </label><br>';

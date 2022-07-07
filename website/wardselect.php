@@ -1,5 +1,5 @@
 <?php
-$file = array_map('str_getcsv', file('website/test.csv'));
+$file = array_map('str_getcsv', file('test.csv'));
 foreach ($file as $cities){
   if($_GET["city"] == $cities[0]){
     $wards = explode(",",$cities[4]);
