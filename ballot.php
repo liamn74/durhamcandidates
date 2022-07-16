@@ -1,5 +1,5 @@
 <?php
-$file = array_map('str_getcsv', file('test.csv'));
+$file = array_map('str_getcsv', file('website/test.csv'));
 foreach ($file as $key=>$value){
   if($value[0]<>"Durham"){
   $towns[] = array($value[0],$value[1],explode(",",$value[2]),$value[3]);
@@ -10,7 +10,7 @@ echo'<head><script async src="https://pagead2.googlesyndication.com/pagead/js/ad
      crossorigin="anonymous"></script>
 <link rel="icon" type="image/x-icon" href="/favicon.jpg">
 <meta property="og:url"                content="liamnichols.ca" />
-<meta property="og:title"              content="Durham Region Candidates Guide" />
+<meta property="og:title"              content="Durham Region Candidates Guide | Preview your Ballot" />
 <meta property="og:description"        content="A comprehensive list of candidates running for municipal office across Durham Region" />
 <meta property="og:image"              content="https://www.liamnichols.ca/website/socialimages/'.$curposition.'.png" />
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
@@ -34,10 +34,10 @@ $(document).ready(function(){
   $("[data-toggle='."tooltip".']").tooltip();   
 });
 </script><title>
-Candidates for '.$position[1].' | Municipality of '.$position[0].' - Durham Region Candidates Guide</title>
+Preview your Ballot</title>
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:creator" content="@whitbynerd">
-<meta name="twitter:title" content="Durham Region Candidates Guide">
+<meta name="twitter:title" content="Durham Region Candidates Guide | Preview your Ballot">
 <meta name="twitter:description" content="A comprehensive list of candidates running for municipal office across Durham Region.">
 <meta name="twitter:image" content="https://www.liamnichols.ca/website/socialimages/'.$curposition.'.png">
 </head>
@@ -57,7 +57,7 @@ A comprehensive list of candidates running for municipal office across Durham Re
 <div class="container-fluid">
 <div class = "col-sm-1"></div>
 <div class = "col-sm-10">
-<form action="wardselect.php" method="GET" role="form" class="form-horizontal">
+<form action="website/wardselect.php" method="GET" role="form" class="form-horizontal">
   <div class="form-group">
     <label for="city" name = "city">Select your City</label>
     <select class="form-control" id="city" name = "city">';

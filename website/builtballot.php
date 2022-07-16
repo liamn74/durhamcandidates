@@ -36,7 +36,7 @@ echo'<head><link rel="preconnect" href="https://fonts.googleapis.com">
      crossorigin="anonymous"></script>
 <link rel="icon" type="image/x-icon" href="website/favicon.jpg">
 <meta property="og:url"                content="liamnichols.ca" />
-<meta property="og:title"              content="Durham Region Candidates Guide" />
+<meta property="og:title"              content="'.$city." - ".$gotward." - ".$school ." School Board | Ballot Preview".'" />
 <meta property="og:description"        content="A comprehensive list of candidates running for municipal office across Durham Region" />
 <meta property="og:image"              content="https://www.liamnichols.ca/social.jpg" />
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
@@ -60,10 +60,10 @@ $(document).ready(function(){
   $("[data-toggle='."tooltip".']").tooltip();   
 });
 </script>
-<title>Durham Region Candidates Guide</title>
+<title>'.$city." - ".$gotward." - ".$school ." School Board | Ballot Preview".'</title>
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:creator" content="@whitbynerd">
-<meta name="twitter:title" content="Durham Region Candidates Guide">
+<meta name="twitter:title" content="'.$city." - ".$gotward." - ".$school ." School Board | Ballot Preview".'">
 <meta name="twitter:description" content="A comprehensive list of candidates running for municipal office across Durham Region.">
 <meta name="twitter:image" content="https://www.liamnichols.ca/social.jpg">
 </head>';
@@ -74,13 +74,13 @@ echo "<body>
 <div class='container-fluid'>
 <div class='row'>
 <div class ='col-sm-1'></div>
-<div class = 'col-lg-3' style = 'text-align:center;font-family:monospace;background-color:#FFDAC1'>
+<div class = 'col-sm-3' style = 'text-align:center;font-family:monospace;background-color:#FFDAC1'>
 <b>Municipality:</b><br>".$city."
 </div>
-<div class = 'col-lg-4' style = 'text-align:center;font-family:monospace;background-color:#E2F0CB'>
+<div class = 'col-sm-4' style = 'text-align:center;font-family:monospace;background-color:#E2F0CB'>
 <b>Ward:</b><br>".$gotward."
 </div>
-<div class = 'col-lg-3' style = 'text-align:center;font-family:monospace;background-color:#C7CEEA'>
+<div class = 'col-sm-3' style = 'text-align:center;font-family:monospace;background-color:#C7CEEA'>
 <b>School System:</b><br>".$school."
 </div>
 </div>

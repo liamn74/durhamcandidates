@@ -1,3 +1,8 @@
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC]
+
 # Deny access to files with extensions .ini, .psd, .log, .sh
 <FilesMatch "\.(ini|psd|log|sh|csv|png)$">
 Order allow,deny
