@@ -35,8 +35,8 @@ foreach ($file as $key=>$value){
 }
 sort($towns);
 foreach ($csv as $key=>$value){
-  if($value[5] <> 2){
-  $candidates[] = array($value[3],$value[1],$value[2],$value[0],$value[4],$value[5],$value[6],$value[7],$value[8],$value[9],$value[10],$value[11]);
+  if($value[5] <> 2 ){
+  $candidates[] = array($value[3],$value[1],$value[2],$value[0],$value[4],$value[5],$value[6],$value[7],$value[8],$value[9], $value[10],$value[11]);
   }
 }
 sort($candidates);
