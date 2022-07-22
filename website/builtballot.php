@@ -37,7 +37,7 @@ echo'<head><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="icon" type="image/x-icon" href="website/favicon.jpg">
 <meta property="og:url"                content="liamnichols.ca" />
 <meta property="og:title"              content="'.$city." - ".$gotward." - ".$school ." School Board | Ballot Preview".'" />
-<meta property="og:description"        content="A comprehensive list of candidates running for municipal office across Durham Region" />
+<meta property="og:description"        content="Preview the ballot of a '.$city." ".$gotward." voter in the ".$school.' school system." />
 <meta property="og:image"              content="https://www.liamnichols.ca/social.jpg" />
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HF8EHH9CXQ"></script>
@@ -64,7 +64,7 @@ $(document).ready(function(){
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:creator" content="@whitbynerd">
 <meta name="twitter:title" content="'.$city." - ".$gotward." - ".$school ." School Board | Ballot Preview".'">
-<meta name="twitter:description" content="A comprehensive list of candidates running for municipal office across Durham Region.">
+<meta name="twitter:description" content="Preview the ballot of a '.$city." ".$gotward." voter in the ".$school.' school system.">
 <meta name="twitter:image" content="https://www.liamnichols.ca/social.jpg">
 </head>';
 echo "<body>
