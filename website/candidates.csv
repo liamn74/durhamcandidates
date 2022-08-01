@@ -10,7 +10,7 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 9,Pickering,6,Sardar,Ayesha,,,ayesha.pickering@gmail.com  ,
 10,Pickering,6,Turner,George David,,647.620.1957,george48.gt@gmail.com ,
 11,Pickering,7,Naqvi,Ali,,289.980.8370,alinaqvi747@gmail.com,
-12,Pickering,7,Sritharan,Darshan,416.836.0345,,darshansritharan@gmail.com,https://darshansri.ca/
+12,Pickering,7,Sritharan,Darshan,,416.836.0345,darshansritharan@gmail.com,https://darshansri.ca/
 13,Pickering,8,Cunningham,Emma,,416.993.2855,emma@emmacunningham.ca ,https://emmacunningham.ca/
 14,Pickering,8,Courtis,Michael T.,,905.509.3313,mtcou@live.com ,
 15,Pickering,9,McCafferty,Jim,1,905.839.8454,jamccafferty@rogers.com,
@@ -33,13 +33,13 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 32,Whitby,19,Roy,Elizabeth,,,,
 33,Whitby,20,Leahy,Chris,1,,,
 34,Whitby,20,Mulcahy,Rhonda,1,,,
-35,Whitby,20,Mallula,Vasu,,,,
+35,Whitby,20,Mallula,Vasu,,(647) 859-1197,vasu4whitby@gmail.com,http://www.vasu4whitby.ca/
 36,Whitby,20,Shahid,Maleeha,,,,
 37,Whitby,20,Yamada,Steve,1,,,
-38,Whitby,20,Sansom,Dave,,,,
+38,Whitby,20,Sansom,Dave,,(905) 242-2518,dsan@sansom-ins.ca,
 39,Whitby,21,Lee,Steve,1,,,
 40,Whitby,22,Thorve,Anjali,,,,
-41,Whitby,22,Lopes,Lori,,,lorilopes4westward@gmail.com,
+41,Whitby,22,Lopes,Lori,,(905) 999-5673,lorilopes4westward@gmail.com,https://www.lorilopes.com/
 42,Whitby,23,Drumm,Joanne,1,,,
 43,Whitby,23,Lundquist,Niki,,,,
 44,Whitby,24,Bozinovski,Victoria,,(416) 818-9419,victoria.bozinovski@rogers.com,
@@ -108,13 +108,13 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 107,Pickering,5,Kazi,Zeynab,,,zeynabk@gmail.com,
 108,Clarington,42,Dingwall,Tom,,,dingwall4mayor@gmail.com,
 109,Oshawa,33,Marks,Bradley,1,905-259-9983,bradmarks30@hotmail.com,
-110,Pickering,5,Sloan,Karen,,905.626.3963,wags.whiskers@hotmail.com,
-111,Pickering,5,Soligo,Jeanine,,,hello@voteforjeanine.ca,
+110,Pickering,5,Sloan,Karen,,905.626.3963,karensloanforpickering@gmail.com,
+111,Pickering,5,Soligo,Jeanine,,416.418.5371,hello@voteforjeanine.ca,http://www.voteforjeanine.ca/
 112,Brock,57,Laundrie,Tony,,705-344-2722,laundrietony@yahoo.ca,
-113,Pickering,6,Nagy,Mara,,416.795.8589,mnagy005@gmail.com,
-114,Whitby,25,Ceylan-Leamen,Melike,,,,
+113,Pickering,6,Nagy,Mara,,416.795.8589,mnagy005@gmail.com,https://linktr.ee/maranagy.w2
+114,Whitby,25,Ceylan-Leamen,Melike,,(905) 431-0693,melike4ddsbtrustee@gmail.com,http://votemelike.ca/
 115,Clarington,49,Brown,Paul,,289-928-9957,paulbrown1965@icloud.com,
-116,Pickering,6,Van Rooy,Nancy,,,,
+116,Pickering,6,Van Rooy,Nancy,,,"	votenancyvanrooy@gmail.com ",
 117,Oshawa,34,Sanders,Doug,,905-244-8843,dougsanders524@gmail.com,https://votedougsanders.ca/
 118,Whitby,25,Brown,Tracy,,,,
 119,Oshawa,31,Hurst,Jane,1,,,
@@ -130,8 +130,8 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 129,Clarington,50,MacKenzie,Kevin,1,289-356-7838,kevin@reelectkevin.com,https://www.reelectkevin.com/ 
 130,Oshawa,35,Eismont,Fred,,905-991-3031,vote4fred@electfredeismont.com,http://electfredeismont.com/
 131,Oshawa,38,Bellamy,Derek,,365-688-5292,votederekbellamy@gmail.com,
-132,Pickering,1,Frampton,Janice,,,,
-133,Brock,51,Williams,Ryan,,905-852-8500,ryanwilliamsformayor@gmail.com,http://ryanwilliamsformayor.ca/
+132,Pickering,1,Frampton,Janice,,H: 905.831.2547 C: 416.702.1217,janice@voteframptonformayor.com,https://www.voteframptonformayor.com/
+133,Brock,51,Williams,Ryan,,705-953-9898,ryanwilliamsformayor@gmail.com,http://ryanwilliamsformayor.ca/
 134,Oshawa,31,Lee,Jim,,905-914-5765,LeeJim1949@gmail.com,
 135,Oshawa,37,Bailey,Taylor Shane,,289-996-5283,TaylorShaneBailey@gmail.com,
 136,Pickering,1,Nazar,Bradley,,,brad.nazar@gmail.com,
@@ -140,5 +140,14 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 139,Pickering,5,Anthony Michael,Yacub,,647.525.1900,anthony.yacub@icloud.com, 
 140,Clarington,48,Zwart,Margaret,1,905-809-1143,votezwart@gmail.com,
 141,Oshawa,37,Gray,John,1,905-449-9858,johngray063@yahoo.ca,
-142,Pickering,8,Linton,Stephen,,416.877.0173,slintonfortrustee@gmail.com
+142,Pickering,8,Linton,Stephen,,416.877.0173,slintonfortrustee@gmail.com,
 143,Pickering,9,Valookaran,Tomy,,416.277.3949,vote.valookaran@gmail.com,http://www.tomyvalookaran.ca/
+144,Ajax,18,Karikari,Richard,,,"	richard@richardkarikari.ca 	",
+145,Pickering,2,Hayes,Tom,,,,
+146,Clarington,45,Reynolds,Larey,,,,
+147,Clarington,45,Elhajjeh,Sami,,905-449-4370,sami_elhajjeh@hotmail.com ,https://samielhajjeh.weebly.com/
+148,Clarington,46,Baswick,Glenn,,,,
+149,Oshawa,28,Neal,John,1,905-655-4049,johnhneal@hotmail.com ,
+150,Oshawa,29,McConkey,Rosemary,1,905-718-0900,OshawaRosemary@gmail.com,https://www.oshawarosemary.com/
+151,Oshawa,39,Ste. Marie,Morgan,1,289-404-0896,vote@morganstemarie.ca ,
+152,Scugog,74,Baxter,Gordon,,905 904 2444,uxgord2006@hotmail.ca,
