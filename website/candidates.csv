@@ -16,14 +16,14 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 15,Pickering,9,McCafferty,Jim,1,905.839.8454,jamccafferty@rogers.com,
 16,Ajax,10,Collier,Shaun,1,,Shaun@votecollier.com,
 17,Ajax,11,Crawford, Marilyn,1,,,
-18,Ajax,12,Lee,Sterling,1,365-885-7887,yourvoice4ajax@gmail.com,
+18,Ajax,12,Lee,Sterling,1,365-885-7887,yourvoice4ajax@gmail.com,https://www.yourvoice4ajax.net/
 19,Ajax,13,Dies,Joanne,1,905-428-8424,,
-20,Ajax,14,Adaikkalam,Andras,,,andrasadaikkalam@gmail.com,
+20,Ajax,14,Adaikkalam,Andras,,416-819-4563,andrasadaikkalam@gmail.com,
 21,Ajax,14,Awan,Arshad,,416-230-4848,arshad.awan557@gmail.com,
-22,Ajax,14,Tyler-Morin,Rob,1,289-314-1183,robtylermorin@gmail.com,
+22,Ajax,14,Tyler-Morin,Rob,1,289-314-1183,robtylermorin@gmail.com,https://www.robtylermorin.ca/
 23,Ajax,15,Khan,Ashmeed,1,,"reelectashmeedkhan@gmail.com	",
 24,Ajax,15,Jeyakumaran,Selladurai,,,jeyakumaran2@hotmail.com ,
-25,Ajax,15,Khan,Azar,,647-886-6586,,
+25,Ajax,15,Khan,Azar,,,,
 26,Ajax,16,Bower,Lisa,1,,lisabower.ward3@gmail.com,
 27,Ajax,17,Edwards,Donna,1,905-683-7610,donnaedwards@bell.net,
 28,Ajax,17,Rowe,Avril,,,electtrusteerowe@gmail.com,
@@ -73,7 +73,7 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 72,Clarington,49,Abraham,Cathy ,1,905-987-1833,cathy1833@gmail.com,
 73,Clarington,49,Fehr,Kyle,,,,
 74,Clarington,49,Shomar,Tenzin,,647-233-8788,votetenzinshomar@gmail.com,
-75,Brock,51,Smith,Ted,2,705-357-2427 | 705-464-7722,tedsmith1951@yahoo.ca,
+75,Brock,51,Smith,Ted,,705-357-2427 | 705-464-7722,tedsmith1951@yahoo.ca,
 76,Brock,51,Schummer,Walter,,705-432-8464,contact@walterschummer.ca,http://www.walterschummer.ca/
 77,Brock,52,Jubb,Michael,,905-252-4487,electjubb@gmail.com,
 78,Brock,53,Frank,Peter,,705-341-1432,pfrank.BrockWard1@gmail.com ,
