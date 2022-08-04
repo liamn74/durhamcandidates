@@ -23,7 +23,7 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 22,Ajax,14,Tyler-Morin,Rob,1,289-314-1183,robtylermorin@gmail.com,https://www.robtylermorin.ca/
 23,Ajax,15,Khan,Ashmeed,1,,"reelectashmeedkhan@gmail.com	",
 24,Ajax,15,Jeyakumaran,Selladurai,,,jeyakumaran2@hotmail.com ,
-25,Ajax,15,Khan,Azar,,,,
+25,Ajax,15,Khan,Azar,,,azharkhanforajax@gmail.com ,
 26,Ajax,16,Bower,Lisa,1,,lisabower.ward3@gmail.com,
 27,Ajax,17,Edwards,Donna,1,905-683-7610,donnaedwards@bell.net,
 28,Ajax,17,Rowe,Avril,,,electtrusteerowe@gmail.com,
@@ -83,13 +83,13 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 82,Brock,57,Campbell,Lynn,1,Phone 1 - 705 357 0013 Phone 2-  289-354 1171,lynndcampbell@bell.net,
 83,Uxbridge,58,Barton,Dave,1,,,
 84,Uxbridge,59,Garrod,Bruce,,,,https://brucegarrod.ca/
-85,Uxbridge,60,Beach,Pamela,1,,,
+85,Uxbridge,60,Beach,Pamela,1,,,https://m.facebook.com/profile.php?id=100064039865245&_rdr
 86,Uxbridge,61,Molloy,Patrick,,,,
-87,Uxbridge,61,Shreeve,Gordon,,,,
+87,Uxbridge,61,Shreeve,Gordon,,,,https://www.facebook.com/gordon.shreeve
 88,Uxbridge,62,Pickering,Zed,,,,
 89,Uxbridge,63,Popp,Willie,,,,
-90,Uxbridge,64,Snooks,Todd,1,,,
-91,Uxbridge,64,McKenzie,Christine,,,,
+90,Uxbridge,64,Snooks,Todd,1,,,https://www.toddsnooksward5.ca/
+91,Uxbridge,64,McKenzie,Christine,,,,https://www.christinemckenzie.ca/
 92,Uxbridge,66,Damianopoulos,Richard,1,,,
 93,Scugog,67,Wotten,Wilma,,905 261 6607,wilma@xplornet.ca,
 94,Scugog,68,McDougall,Ian,,905 985 8000,mcdougall4scugog@gmail.com,
@@ -105,19 +105,19 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 104,Whitby,25,Mylavarapu,Srikanth,,,,
 105,Clarington,49,Nyberg,Gail,1,416-450-3203,gailnyberg@gmail.com,
 106,Pickering,4,Pickles,David,1,,,
-107,Pickering,5,Kazi,Zeynab,,,zeynabk@gmail.com,
+107,Pickering,5,Kazi,Zeynab,,647.450.5432,hello@zeynabkazi.ca ,https://www.zeynabkazi.ca/
 108,Clarington,42,Dingwall,Tom,,,dingwall4mayor@gmail.com,
 109,Oshawa,33,Marks,Bradley,1,905-259-9983,bradmarks30@hotmail.com,
 110,Pickering,5,Sloan,Karen,,905.626.3963,karensloanforpickering@gmail.com,
 111,Pickering,5,Soligo,Jeanine,,416.418.5371,hello@voteforjeanine.ca,http://www.voteforjeanine.ca/
 112,Brock,57,Laundrie,Tony,,705-344-2722,laundrietony@yahoo.ca,
-113,Pickering,6,Nagy,Mara,,416.795.8589,mnagy005@gmail.com,https://linktr.ee/maranagy.w2
+113,Pickering,6,Nagy,Mara,,416.795.8589,mara@maranagy.com ,https://linktr.ee/maranagy.w2
 114,Whitby,25,Ceylan-Leamen,Melike,,(905) 431-0693,melike4ddsbtrustee@gmail.com,http://votemelike.ca/
 115,Clarington,49,Brown,Paul,,289-928-9957,paulbrown1965@icloud.com,
 116,Pickering,6,Van Rooy,Nancy,,,"	votenancyvanrooy@gmail.com ",
 117,Oshawa,34,Sanders,Doug,,905-244-8843,dougsanders524@gmail.com,https://votedougsanders.ca/
 118,Whitby,25,Brown,Tracy,,,,
-119,Oshawa,31,Hurst,Jane,1,,,
+119,Oshawa,31,Hurst,Jane,1, 905-439-9597,hurst_jane@hotmail.com,
 120,Pickering,7,Butt,Shaheen,1,,,
 121,Brock,52,Sanderson,Dorothy,,705-432-2927,gaffney@personainternet.com,
 122,Clarington,46,Rang,Lloyd,,905-431-4779,lloyd@votelloydrang.com,http://www.votelloydrang.com/ 
@@ -136,18 +136,20 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 135,Oshawa,37,Bailey,Taylor Shane,,289-996-5283,TaylorShaneBailey@gmail.com,
 136,Pickering,1,Nazar,Bradley,,,brad.nazar@gmail.com,
 137,Whitby,20,Kapuscinski,Ron,,,,
-138,Oshawa,34,Davis,Jeff,,905-396-2361,,
+138,Oshawa,34,Davis,Jeff,,905-396-2361,info@jeff-davis.ca,https://www.jeff-davis.ca/
 139,Pickering,5,Anthony Michael,Yacub,,647.525.1900,anthony.yacub@icloud.com, 
 140,Clarington,48,Zwart,Margaret,1,905-809-1143,votezwart@gmail.com,
 141,Oshawa,37,Gray,John,1,905-449-9858,johngray063@yahoo.ca,
 142,Pickering,8,Linton,Stephen,,416.877.0173,slintonfortrustee@gmail.com,
 143,Pickering,9,Valookaran,Tomy,,416.277.3949,vote.valookaran@gmail.com,http://www.tomyvalookaran.ca/
 144,Ajax,18,Karikari,Richard,,,"	richard@richardkarikari.ca 	",
-145,Pickering,2,Hayes,Tom,,,,
+145,Pickering,2,Hayes,Tom,,905.904.2521,,
 146,Clarington,45,Reynolds,Larey,,,,
 147,Clarington,45,Elhajjeh,Sami,,905-449-4370,sami_elhajjeh@hotmail.com ,https://samielhajjeh.weebly.com/
 148,Clarington,46,Baswick,Glenn,,,,
-149,Oshawa,28,Neal,John,1,905-655-4049,johnhneal@hotmail.com ,
+149,Oshawa,28,Neal,John,1,905-655-4049,johnhneal@hotmail.com,
 150,Oshawa,29,McConkey,Rosemary,1,905-718-0900,OshawaRosemary@gmail.com,https://www.oshawarosemary.com/
 151,Oshawa,39,Ste. Marie,Morgan,1,289-404-0896,vote@morganstemarie.ca ,
 152,Uxbridge,65,Baxter,Gordon,,905 904 2444,uxgord2006@hotmail.ca,
+153,Oshawa,30,Fouroughy,Lina,,905-439-1245,vote@Lina4Ward2.com,https://www.lina4ward2.com/
+154,Scugog,69,LeRoy,David,,416 274 8231,davidleroyforward1@gmail.com,
