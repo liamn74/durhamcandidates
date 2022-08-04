@@ -149,7 +149,25 @@ echo '</ul>
 <p>Thank you for visiting.<br><br>This resource is meant to help track who is running across all '.$spots.' positions to be elected in the upcoming municipal election in Durham Region.
 <br><br>
 Information is not gathered in real time. For the latest and most up to date information, please visit each municipality'."'".'s source data.
-<br><br><b><mark>Election day is Monday, October 24th, 2022. Please vote.</mark></b><p><a href="/ballot.php"target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-info" >Preview your Ballot</button></a></div>
+<br><br><table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Event</th>
+      <th scope="col">Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Candidate Registration Closes</th>
+      <td>Friday, August 19, 2022 at 2 p.m.</td>
+    </tr>
+    <tr>
+      <th scope="row">Election Day</th>
+      <td>Monday, October 24, 2022</td>
+
+    </tr>
+  </tbody>
+</table><p><a href="/ballot.php"target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-info" >Preview your Ballot</button></a></div>
 <div class="col-sm-6">
 <br>
 <div class="panel panel-default">
