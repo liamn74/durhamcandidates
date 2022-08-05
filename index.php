@@ -30,6 +30,31 @@ $tru = 0;
 $spots = 0;
 $nominations = [];
 $nocans = 0;
+$positioncount = array();
+$posittracker = array();
+$acclamations = 0;
+foreach ($csv as $key=>$value){
+  if($value[5] <> 2 ){
+  $positioncount[] = array($value[2]);
+  }
+}
+foreach($positioncount as $positcount){
+  foreach($positcount as $pc){
+    if($pc <> "Position"){
+      $positiontracker[] = $pc;
+    }
+  }
+}
+$positcounter = array_count_values($positiontracker);
+foreach($positcounter as $key=>$value){
+  foreach($positfile as $pf){
+    if($pf[0] == $key){
+      if($pf[3] >= $value){
+        $acclamations = $acclamations + $value;
+      }
+    }
+  }
+}
 foreach ($file as $key=>$value){
   $towns[] = array($value[0],$value[1],explode(",",$value[2]),$value[3]);
 }
@@ -194,7 +219,7 @@ Information is not gathered in real time. For the latest and most up to date inf
 </div>
 </div>
 <div class="col-md-6"><div class="panel panel-default">
-  <div class="panel-heading"><h4>By The Numbers:</h4></div><div class="panel-body"><p><span class="badge"style="background-color:#45B39D">'.$sum.'</span> candidates are running in total<p><span class="badge"style="background-color:#16A085">'.$hoc.'</span> are running for Mayor or Regional Chair<p><span class="badge"style="background-color:#138D75">'.$rc.'</span> are running for Regional Councillor<p><span class="badge"style="background-color:#117A65">'.$cc.'</span> are running for Local Councillor<p><span class="badge"style="background-color:#0E6655">'.$tru.'</span> are running for School Board Trustee<p><span class="badge"style="background-color:#E74C3C">'.$nocans.'</span> positions do not have any candidates.</div></div></div></div>';
+  <div class="panel-heading"><h4>By The Numbers:</h4></div><div class="panel-body"><p><span class="badge"style="background-color:#45B39D">'.$sum.'</span> candidates are running in total<p><span class="badge"style="background-color:#16A085">'.$hoc.'</span> are running for Mayor or Regional Chair<p><span class="badge"style="background-color:#138D75">'.$rc.'</span> are running for Regional Councillor<p><span class="badge"style="background-color:#117A65">'.$cc.'</span> are running for Local Councillor<p><span class="badge"style="background-color:#0E6655">'.$tru.'</span> are running for School Board Trustee<p><span class="badge"style="background-color:#0b4d40">'.$acclamations.'</span> candidates are on track to be acclaimed<p><span class="badge"style="background-color:#E74C3C">'.$nocans.'</span> positions do not have any candidates.</div></div></div></div>';
 echo"</div>";
 foreach ($towns as $town){
   echo'
