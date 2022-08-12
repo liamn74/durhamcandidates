@@ -102,7 +102,7 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 101,Oshawa,37,Gray,John,1,905-449-9858,johngray063@yahoo.ca,
 102,Oshawa,38,Jamischak,Elizabeth,,416-737-1729,elizabeth@ej4ddsb.com,https://www.ej4ddsb.com/
 103,Oshawa,38,Bellamy,Derek,,365-688-5292,votederekbellamy@gmail.com,
-104,Oshawa,39,Ste. Marie,Morgan,1,289-404-0896,vote@morganstemarie.ca ,
+104,Oshawa,39,Ste. Marie,Morgan,1,289-404-0896,vote@morganstemarie.ca,https://morganstemarie.ca/
 105,Clarington,42,Foster,Adrian,1,905-439-8613,adrianfoster@sympatico.ca,https://www.adrianfoster.ca/
 106,Clarington,42,Neal,Joe,,905-242-4141,,
 107,Clarington,42,Dingwall,Tom,,,dingwall4mayor@gmail.com,
@@ -161,3 +161,9 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 160,Durham,74,Patch,Kurdil-Telt,,,kurdiltelt@outlook.com,
 161,Clarington,49,Barrett,Michael,,647-409-5249,trusteemichaelbarrett@gmail.com,
 162,Pickering,6,Currie,Dave,,,,
+163,Ajax,11,Ali,Intab,,416-670-1795,intabali66@gmail.com,
+164,Ajax,17,Evangelista,James,,647-535-4555,je4trustee@gmail.com,
+165,Clarington,42,Pejic,Mirko,,,,
+166,Clarington,49,Rekar,Terry,,416-906-2665,terrykeefe03@gmail.com,
+167,Oshawa,31,Ullah,Amin,,905-818-6703,aminullahkhan@gmail.com,
+168,Oshawa,39,Beatty,Kim,,905-579-8184,electkimbeatty@rogers.com,https://kimbeatty.ca/
