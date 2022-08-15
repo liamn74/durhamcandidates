@@ -64,7 +64,7 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 63,Whitby,24,Bozinovski,Victoria,,(416) 818-9419,victoria.bozinovski@rogers.com,
 64,Whitby,24,Rinella,John,,,,
 65,Whitby,24,Case,PG,,,,
-66,Whitby,25,Kee,Steve,,(416) 841-5669,stephen.e.kee@gmail.com,http://stevekeecommunications.ca/
+66,Whitby,25,Kee,Steve,2,(416) 841-5669,stephen.e.kee@gmail.com,http://stevekeecommunications.ca/
 67,Whitby,25,Templeton,Scott,1,(905) 442-3566,scott@re-electtempleton.ca,http://re-electtempleton.ca/
 68,Whitby,25,Thatcher,Christine,1,,,
 69,Whitby,25,Smale,Tyler,,,,
@@ -167,3 +167,4 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 166,Clarington,49,Rekar,Terry,,416-906-2665,terrykeefe03@gmail.com,
 167,Oshawa,31,Ullah,Amin,,905-818-6703,aminullahkhan@gmail.com,
 168,Oshawa,39,Beatty,Kim,,905-579-8184,electkimbeatty@rogers.com,https://kimbeatty.ca/
+169,Whitby,19,Griffiths,Evan,,,,
