@@ -86,7 +86,14 @@ echo "<body>
 </div>
 <div class = 'row'>
 <div class ='col-sm-1'></div>
-<div class = 'col-sm-10'>";
+<div class = 'col-sm-10'>
+<nav aria-label='breadcrumb'>
+  <ol class='breadcrumb'>
+    <li class='breadcrumb-item'><a href='https://www.liamnichols.ca'>Home</a></li>
+    <li class='breadcrumb-item active' aria-current='page'>"."Preview your Ballot"."</li>
+  </ol>
+</nav>";
+
 foreach ($positions as $position){
   if ($position[0] == 74){
     echo "<h4 style='font-family:monospace;'>".$position[2]."<br>choose up to ".$position[3]."</h4>";

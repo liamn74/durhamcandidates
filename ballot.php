@@ -57,6 +57,12 @@ A comprehensive list of candidates running for municipal office across Durham Re
 <div class="container-fluid">
 <div class = "col-sm-1"></div>
 <div class = "col-sm-10">
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="https://www.liamnichols.ca">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">'."Preview your Ballot".'</li>
+  </ol>
+</nav>
 <form action="website/wardselect.php" method="GET" role="form" class="form-horizontal">
   <div class="form-group">
     <label for="city" name = "city">Select your City</label>
