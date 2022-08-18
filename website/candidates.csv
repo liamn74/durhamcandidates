@@ -50,7 +50,7 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 49,Whitby,19,Newman,Deidre,,,,
 50,Whitby,19,Roy,Elizabeth,,,,
 51,Whitby,20,Leahy,Chris,1,,,
-52,Whitby,20,Mulcahy,Rhonda,1,,,
+52,Whitby,20,Mulcahy,Rhonda,1,(905) 213-7403,Rhonda@RhondaMulcahy.com,http://rhondamulcahy.com
 53,Whitby,20,Mallula,Vasu,,(647) 859-1197,vasu4whitby@gmail.com,http://www.vasu4whitby.ca/
 54,Whitby,20,Shahid,Maleeha,,,,
 55,Whitby,20,Yamada,Steve,1,,,
@@ -68,7 +68,7 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 67,Whitby,25,Templeton,Scott,1,(905) 442-3566,scott@re-electtempleton.ca,http://re-electtempleton.ca/
 68,Whitby,25,Thatcher,Christine,1,,,
 69,Whitby,25,Smale,Tyler,,,,
-70,Whitby,25,Frempong,Akuah,,,,
+70,Whitby,25,Frempong,Akuah,,,akuah.frempong@gmail.com,http://akuahfrempong.ca/
 71,Whitby,25,Mylavarapu,Srikanth,,,,
 72,Whitby,25,Ceylan-Leamen,Melike,,(905) 431-0693,melike4ddsbtrustee@gmail.com,http://votemelike.ca/
 73,Whitby,25,Brown,Tracy,,,,
@@ -115,7 +115,7 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 114,Clarington,45,Elhajjeh,Sami,,905-449-4370,sami_elhajjeh@hotmail.com ,https://samielhajjeh.weebly.com/
 115,Clarington,46,Rang,Lloyd,,905-431-4779,lloyd@votelloydrang.com,http://www.votelloydrang.com/ 
 116,Clarington,46,Kerr,Ryan,,,ryankerrtalks@outlook.com,
-117,Clarington,46,Baswick,Glenn,,,,
+117,Clarington,46,Baswick,Glenn,2,,,
 118,Clarington,47,Whidden,Marven,,905-449-754,marvenwhidden@gmail.com,https://votemarvenwhidden.ca/
 119,Clarington,48,Zwart,Margaret,1,905-809-1143,votezwart@gmail.com,
 120,Clarington,49,Abraham,Cathy ,1,905-987-1833,cathy1833@gmail.com,
@@ -128,7 +128,7 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 127,Brock,51,Smith,Ted,,705-357-2427 | 705-464-7722,tedsmith1951@yahoo.ca,
 128,Brock,51,Schummer,Walter,,705-432-8464,contact@walterschummer.ca,http://www.walterschummer.ca/
 129,Brock,51,Williams,Ryan,,705-953-9898,ryanwilliamsformayor@gmail.com,http://ryanwilliamsformayor.ca/
-130,Brock,52,Jubb,Michael,,905-252-4487,electjubb@gmail.com,
+130,Brock,52,Jubb,Michael,,905-252-4487,electjubb@gmail.com,https://www.facebook.com/mike.jubb.3
 131,Brock,52,Sanderson,Dorothy,,705-432-2927,gaffney@personainternet.com,
 132,Brock,53,Frank,Peter,,705-341-1432,pfrank.BrockWard1@gmail.com ,
 133,Brock,54,Doble,Claire,1,705-344-4768,clairedobleforward2@gmail.com,
@@ -168,8 +168,7 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 167,Oshawa,31,Ullah,Amin,,905-818-6703,aminullahkhan@gmail.com,
 168,Oshawa,39,Beatty,Kim,,905-579-8184,electkimbeatty@rogers.com,https://kimbeatty.ca/
 169,Whitby,19,Griffiths,Evan,,,,
-170,Brock,52,Marquis,David,,"Phone 1: 905-830-7777
-Phone 2: 705-357-2407",davidmarquis363@gmail.com,
+170,Brock,52,Marquis,David,,Phone 1: 905-830-7777 Phone 2: 705-357-2407,davidmarquis363@gmail.com,https://www.facebook.com/DavidMarquisforRegionalCouncillor/
 171,Clarington,49,Flynn,Kathleen,,,voteinkathleenflynn@gmail.com,https://www.voteinkathleenflynn.com/
 172,Oshawa,37,Jean Lewis,Amanda,,289-939-2407,amandaforoshawacouncil@gmail.com,
 173,Oshawa,38,Adams,Rob,,905-706-1986,radamsSBT22@gmail.com,
@@ -183,3 +182,16 @@ Phone 2: 705-357-2407",davidmarquis363@gmail.com,
 181,Oshawa,36,Down,Alex,,289-803-0037,alex@alexandradown.ca,https://www.alexandradown.ca/
 182,Oshawa,38,Moyo,Sindiswa,,647-834-9511,,
 183,Oshawa,38,Milosh,George,,905-576-4067,gcmilosh@hotmail.com,
+184,Ajax,17,Ingold,John,,416-919-6744,ingold.john@sympatico.ca ,
+185,Ajax,17,Sheehan,Capucine,,,capucine4trustee@pm.me,
+186,Clarington,47,Baswick,Glenn,,,,
+187,Clarington,49,Hossain,Sheikh,,647-292-4055,laibalahad@gmail.com,
+188,Oshawa,28,Russo,Rosaldo,,905-655-5347,1938_russo@gmail.com,
+189,Oshawa,33,Dobson,Timothy,,289-675-1075,TDOBSON@YOUROSHAWA.COM,https://www.youroshawa.com/
+190,Oshawa,38,Leventakis,James,,416-883-5263,james@levantakis.com,
+191,Oshawa,38,Stone,Linda,,905-440-6877,lindastone4trusteeddsb@gmail.com,https://twitter.com/_lindastone
+192,Oshawa,40,Paul,Serge,,647-273-6514,sergeincanada@gmail.com,
+193,Oshawa,41,Kwilu Mondo,Marcellin,,289-923-1869,conseillermarcellin@gmail.com ,
+194,Durham,74,Neal,Peter,,,pwneal@hotmail.com,
+195,Uxbridge,66,Robins,Tim,,,,https://www.linkedin.com/in/tim-robins-55149245/
+196,Whitby,26,Camara,Olivier,,,,
