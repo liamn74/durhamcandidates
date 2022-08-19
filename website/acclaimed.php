@@ -23,6 +23,7 @@ $positfile = array_map('str_getcsv', file('positions.csv'));
 $towns = array();
 $candiates = array();
 $positions = array();
+$positionsthatwillacclaim = array();
 $hoc = 0;
 $rc = 0;
 $lc = 0;
@@ -51,6 +52,7 @@ foreach($positcounter as $key=>$value){
     if($pf[0] == $key){
       if($pf[3] >= $value){
         $acclamations = $acclamations + $value;
+        $positionsthatwillacclaim[] = $pf;
       }
     }
   }
@@ -84,7 +86,7 @@ echo'<head><script src="https://kit.fontawesome.com/ccc537e79c.js" crossorigin="
      crossorigin="anonymous"></script>
 <link rel="icon" type="image/x-icon" href="favicon.jpg">
 <meta property="og:url"                content="liamnichols.ca" />
-<meta property="og:title"              content="Durham Region Candidates Guide" />
+<meta property="og:title"              content="Durham Region Candidates Guide | Projected Acclamations" />
 <meta property="og:description"        content="A comprehensive list of candidates running for municipal office across Durham Region" />
 <meta property="og:image"              content="https://www.liamnichols.ca/social.jpg" />
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
@@ -108,10 +110,10 @@ $(document).ready(function(){
   $("[data-toggle='."tooltip".']").tooltip();   
 });
 </script>
-<title>Durham Region Candidates Guide</title>
+<title>Durham Region Candidates Guide | Projected Acclamations</title>
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:creator" content="@whitbynerd">
-<meta name="twitter:title" content="Durham Region Candidates Guide">
+<meta name="twitter:title" content="Durham Region Candidates Guide | Projected Acclamations">
 <meta name="twitter:description" content="A comprehensive list of candidates running for municipal office across Durham Region.">
 <meta name="twitter:image" content="https://www.liamnichols.ca/social.jpg">
 </head>
@@ -133,22 +135,29 @@ A comprehensive list of candidates running for municipal office across Durham Re
 <div class = "col-sm-1"></div>
 <div class="col-sm-10">';
 
-echo '    <div class="panel panel-default">
-      <div class="panel-heading">On Track to be Acclaimed.
+echo '<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="https://www.liamnichols.ca">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">'."List of candidates who may be acclaimed".'</li>
+  </ol>
+</nav><div class="panel panel-default">
+      <div class="panel-heading"><h3>On Track to be Acclaimed</h3>
       </div>
       <div class="panel-body" style ="overflow-x:auto;">
 <table class="table table-hover" style="white-space: nowrap;">
     <thead>
       <tr>
         <th style="width:20%">Name</th>
-        <th style="width:20%">Email</th>
-        <th style="width:20%">Phone</th>
+        <th style="width:20%">Office</th>
+        <th style="width:20%">Municipality</th>
         <th style="width:20%">Website</th>
       </tr>
     </thead>
     <tbody>';
     foreach ($candidates as $line1){
-        if($line1[1] == $town[0] && $line1[2] == $position[0]){
+      foreach ($positionsthatwillacclaim as $ptwa){
+        foreach ($positions as $posits){
+        if($line1[2] == $ptwa[0] && $posits[0] == $ptwa[0]){
           echo '
           <tr>        
             <td>';
@@ -164,10 +173,10 @@ echo '    <div class="panel panel-default">
           echo
           $line1[4]." ".$line1[0].'
           <td>
-          <a href ="mailto:'.$line1[7].'">'.$line1[7].'</a>
+          '.$posits[2].'
           </td>
           <td>
-          '.$line1[6].'
+          '.$posits[1].'
           </td>'.'
           <td>
           <a href="'.$line1[8].'" target="_blank" rel="noopener noreferrer"">'.$line1[8].'</a>
@@ -175,6 +184,8 @@ echo '    <div class="panel panel-default">
   }
       
 }
+}
+    }
       echo "</tr>";
     echo "</td>";
     echo'

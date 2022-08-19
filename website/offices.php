@@ -40,7 +40,7 @@ echo'<head><script async src="https://pagead2.googlesyndication.com/pagead/js/ad
 <meta property="og:url"                content="liamnichols.ca" />
 <meta property="og:title"              content="Durham Region Candidates Guide" />
 <meta property="og:description"        content="A comprehensive list of candidates running for municipal office across Durham Region" />
-<meta property="og:image"              content="https://www.liamnichols.ca/website/socialimages/'.$curposition.'.png" />
+<meta property="og:image"           content="https://www.liamnichols.ca/website/socialimages/'.$curposition.'.png" />
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HF8EHH9CXQ"></script>
 <script>
