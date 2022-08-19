@@ -206,7 +206,7 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 205,Pickering,7,Williams,Damian,,,,
 206,Pickering,8,Sobers,Donna,,,,
 207,Scugog,73,Coyne,Terry,,905-431-9227,tech2545@pineridgeimpress.ca,
-208,Whitby,21,Sharma,Rajat,,,,
+208,Whitby,21,Sharma,Rajat,2,,,
 209,Ajax,12,Bashir,Adam,,289-987-6700,adambashir11@gmail.com,
 210,Ajax,17,Miller,Kelly,,,kelly.tmiller@gmail.com,
 211,Ajax,18,Mendonca,Alban,,647-295-1690 - 289-660-9161,oanda@rogers.com ,
@@ -221,3 +221,4 @@ ID,City,Position,Last Name,First Name,Incumbent,Phone,Email,Website
 220,Whitby,20,Emm,Michael G.,,,,
 221,Whitby,22,Skenderis,Jim,,,,
 222,Whitby,26,Aitcheson,Trevor,,,,
+223,Whitby,24,Sharma,Rajat,,,,
